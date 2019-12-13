@@ -92,11 +92,5 @@ class App extends React.Component {
   }
 }
 
-// Run it
-ReactDOM.render(
-    <App/>,
-    document.getElementById("app")
-)
-
 
 export default App;
