@@ -3,11 +3,19 @@ import './App.css';
 
 const data = [
 
-  { id: 'Tom Tom', letter: 'A', src: 'http://www.denhaku.com/r_box/sr16/sr16tom/loelectm.wav' },
+  { id: 'Crickets', letter: 'A', src: 'https://raw.githubusercontent.com/Naiviv/drumkit/master/public/Crickets%20(Awkward%20Silence)%20-%20Gaming%20Sound%20Effect%20(HD).mp3' },
   
-  { id: 'Bass', letter: 'S', src: 'http://billor.chsh.chc.edu.tw/sound/bass4.wav' },
+  { id: 'Drumroll', letter: 'S', src: 'https://raw.githubusercontent.com/Naiviv/drumkit/master/public/Drum%20Roll%20-%20Gaming%20Sound%20Effect%20(HD).mp3' },
   
-  { id: 'High Hat', letter: 'D', src: 'http://www.denhaku.com/r_box/tr707/closed.wav' }
+  { id: 'Gibberish', letter: 'D', src: 'https://raw.githubusercontent.com/Naiviv/drumkit/master/public/Hu%20Waa%20Waa%20-%20Gaming%20Sound%20Effect%20(HD).mp3' },
+   
+  { id: 'Cant believe', letter: 'F', src: 'https://raw.githubusercontent.com/Naiviv/drumkit/master/public/I%20can_t%20believe%20you%20done%20this%20Sound%20Effect.mp3' },
+   
+  { id: 'Law and Order', letter: 'G', src: 'https://raw.githubusercontent.com/Naiviv/drumkit/master/public/Law%20and%20Order%20Sound%20Effect.mp3' },
+  
+  { id: 'Nope', letter: 'H', src: 'https://raw.githubusercontent.com/Naiviv/drumkit/master/public/Nope%20(Construction%20Worker%20TF2)%20-%20Gaming%20Sound%20Effect%20(HD).mp3' },
+   
+  { id: 'Trombone', letter: 'J', src: 'https://raw.githubusercontent.com/Naiviv/drumkit/master/public/Sad%20Trombone%20-%20Gaming%20Sound%20Effect%20(HD).mp3' }
   
 ]
 
@@ -83,5 +91,12 @@ class App extends React.Component {
     )
   }
 }
+
+// Run it
+ReactDOM.render(
+    <App/>,
+    document.getElementById("app")
+)
+
 
 export default App;
