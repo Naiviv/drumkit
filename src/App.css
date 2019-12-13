@@ -1,13 +1,32 @@
 body {
-  background: grey;
+  background-image: url("https://raw.githubusercontent.com/Naiviv/drumkit/master/public/brickssss.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: grey;
+  background-blend-mode: multiply;
 }
 #drum-pads{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  margin: 200px 0px 0px 0px;  
 }
 #drum-pads div{
-  background: purple;
+  background: deeppink;
+  border: 7px solid mediumvioletred;
+  border-radius: 15px;
   width: 100px;
-  height: 100px;
+  height: 85px;
+  margin: 10px;  
+}
+h1{
+  text-align: center;
+  color: #F0F0F0;
+}
+#display{
+  font-size: 3rem;
+  color: #F0F0F0;
+  text-align: center;
+  margin: 150px 0px -150px 0px;
   
 }
